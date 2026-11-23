@@ -1,10 +1,11 @@
-# TODO: Your Name
+# Edward Su (蘇胤瑞)
 
-**TODO: job title** in Taiwan. I deploy, verify and speed up AI weather models (NVIDIA FourCastNet v3, CorrDiff,
-Earth-2 Atlas, ECMWF AIFS) on HPC GPU clusters, from offline installation to Nsight profiling, multi-GPU scaling
-and probabilistic verification.
+**Assistant Researcher** at Taiwan's Central Weather Administration. I deploy, verify and speed up AI weather models
+(NVIDIA FourCastNet v3, CorrDiff, Earth-2 Atlas, ECMWF AIFS) on HPC GPU clusters, from offline installation to
+Nsight profiling, multi-GPU scaling and probabilistic verification.
 
-TODO: email · TODO: LinkedIn URL
+[littleblacker29@gmail.com](mailto:littleblacker29@gmail.com) ·
+[LinkedIn](https://www.linkedin.com/in/%E8%83%A4%E7%91%9E-%E8%98%87-00a893369/)
 
 ## Featured projects
 
@@ -34,7 +35,7 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 
 ## Work
 
-**TODO: job title**, Central Weather Administration (CWA), Taiwan · TODO: years
+**Assistant Researcher**, Central Weather Administration (CWA), Taiwan · Nov 2020 – present
 
 - **Operational AI downscaling:** built a daily pipeline that downscales 50-member, 45-day FCN3 global ensemble
   forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run.
@@ -42,7 +43,7 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
   decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC.
 - **Extended-range monsoon onset:** verified 50-member AIFS-ENS and FCN3 ensembles against ERA5 for South China Sea
-  summer monsoon and Meiyu onset. TODO: confirm the AOGS presentation. Cropping GRIB files with wgrib2 before
+  summer monsoon and Meiyu onset, presented as a poster at AOGS 2026. Cropping GRIB files with wgrib2 before
   decoding made data loading about 30x faster.
 - **NVIDIA Earth-2 Atlas:** deployed the CRPS ensemble model offline on the GPU cluster and ran a 10-day, 8-member
   forecast at 3.9 s per member-step on A100.
@@ -60,4 +61,4 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 
 ## Education
 
-TODO: degree, school, years
+**M.S.**, Graduate Institute of Atmospheric Physics, National Central University, Taiwan · 2015 – 2017
