@@ -44,7 +44,8 @@ Global NWP forecast verification from 2020; machine-learning weather prediction 
   forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run.
 - **Probabilistic verification of AI vs NWP ensembles:** after CorrDiff downscaling, compared FCN3 with the ECMWF
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
-  decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC.
+  decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC. Also compare typhoon tracks across
+  NWP and AI models.
 - **Extended-range AI ensembles:** ran ECMWF AIFS-ENS and NVIDIA FCN3 in-house as 50-member, 45-day ensembles and
   verified them against ERA5. AIFS-ENS was more skilful in the first two weeks, but its errors grew quickly after a
   crossover around day 16, while FCN3 stayed bounded and, in the 2025 case, caught the end of the Meiyu circulation
@@ -79,7 +80,7 @@ Global NWP forecast verification from 2020; machine-learning weather prediction 
 | Multi-GPU | PyTorch DDP, NCCL, NVLink, ensemble scaling |
 | AI weather models | Earth2Studio, PhysicsNeMo, FourCastNet v3, CorrDiff, Earth-2 Atlas, AIFS, Pangu-Weather |
 | Verification | CRPS, Brier score and decomposition, reliability, ROC, rank histograms, spread-skill, track error |
-| HPC | Air-gapped deployment, Lustre, PJM / Slurm batch jobs, offline pip and conda toolchains, CUDA extension builds |
+| HPC | Linux, air-gapped deployment, Lustre, PJM / Slurm batch jobs, offline pip and conda toolchains, CUDA extension builds |
 | Languages and data | Python, PyTorch, JAX, NumPy, xarray, Zarr, NetCDF, GRIB, Bash |
 | Web development | Django, Vue, back-end APIs, CRUD services, database tuning |
 
