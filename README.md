@@ -87,3 +87,5 @@ Global NWP forecast verification from 2020; machine-learning weather prediction 
 ## Education
 
 **M.S.**, Graduate Institute of Atmospheric Physics, National Central University, Taiwan · 2015 – 2017
+
+**B.S.**, Department of Atmospheric Sciences, Chinese Culture University, Taiwan · 2011 – 2015
