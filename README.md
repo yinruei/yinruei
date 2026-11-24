@@ -38,7 +38,8 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 **Assistant Researcher**, International Integrated Systems (IISI), on assignment to Taiwan's Central Weather
 Administration (CWA) · Nov 2020 – present
 
-Develop and run the global verification system from 2020; machine-learning weather prediction since 2023.
+Develop and run the global verification system from 2020. Since 2023, bring in and evaluate AI weather models:
+Pangu-Weather, FengWu, FuXi, GraphCast, GenCast, ECMWF AIFS-ENS and NVIDIA FCN3.
 
 - **Taipei-1 compute project:** assess the computing environment and compute needs for running ECMWF AIFS-ENS in
   operations, in the project "AIFS-ENS performance optimization in an operational environment".
@@ -86,7 +87,7 @@ Develop and run the global verification system from 2020; machine-learning weath
 |---|---|
 | GPU performance | Nsight Systems, NVTX, mixed precision (BF16 / FP16 / TF32), `torch.compile` / Triton |
 | Multi-GPU | PyTorch DDP, NCCL, NVLink, ensemble scaling |
-| AI weather models | Earth2Studio, PhysicsNeMo, FourCastNet v3, CorrDiff, Earth-2 Atlas, AIFS, Pangu-Weather |
+| AI weather models | Earth2Studio, PhysicsNeMo, FourCastNet v3, CorrDiff, Earth-2 Atlas, AIFS-ENS, Pangu-Weather, FengWu, FuXi, GraphCast, GenCast |
 | Verification | CRPS, Brier score and decomposition, reliability, ROC, rank histograms, spread-skill, track error |
 | HPC | Linux, air-gapped deployment, Lustre, PJM / Slurm batch jobs, offline pip and conda toolchains, CUDA extension builds |
 | Languages and data | Python, PyTorch, JAX, NumPy, xarray, Zarr, NetCDF, GRIB, Bash |
