@@ -1,6 +1,6 @@
 # Yin-Ruei (Edward) Su · 蘇胤瑞
 
-**Assistant Researcher** at Taiwan's Central Weather Administration. I deploy, verify and speed up AI weather models
+**Assistant Researcher** at IISI, working at Taiwan's Central Weather Administration. I deploy, verify and speed up AI weather models
 (NVIDIA FourCastNet v3, CorrDiff, Earth-2 Atlas, ECMWF AIFS) on HPC GPU clusters, from offline installation to
 Nsight profiling, multi-GPU scaling and probabilistic verification.
 
@@ -35,7 +35,10 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 
 ## Work
 
-**Assistant Researcher**, Central Weather Administration (CWA), Taiwan · Nov 2020 – present
+**Assistant Researcher**, International Integrated Systems (IISI), on assignment to Taiwan's Central Weather
+Administration (CWA) · Nov 2020 – present
+
+Global NWP forecast verification from 2020; machine-learning weather prediction since 2023.
 
 - **Operational AI downscaling:** built a daily pipeline that downscales 50-member, 45-day FCN3 global ensemble
   forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run.
@@ -53,12 +56,15 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
   [2023 NCHC × NVIDIA OpenACC Hackathon](https://www.nchc.org.tw/Message/MessageView?id=3872), our team rebuilt the
   core of CWA's global ensemble verification system in JAX on GPUs. The existing workflow took over 12 hours per
   cycle; the proof of concept ran up to **44x faster**. I co-developed the GPU code and presented the team's results.
+- **Project coordination:** coordinate the RWRF shortwave-radiation bias-correction project (U-Net) for solar power
+  forecasting, and brief management and partner divisions.
 
 **Full-Stack Engineer**, Cloudybay Information (雲灣資訊), Taiwan · Sep 2018 – Jul 2020
 
-- **Full-stack web development:** built interactive front-end pages and the back-end APIs that serve them, from
-  CRUD services to integrations with other systems.
+- **Full-stack web development (Python, Django, Vue):** built interactive front-end pages and the back-end APIs that
+  serve them, from CRUD services to integrations with other systems.
 - **Back end and database:** implemented server-side algorithms and tuned database performance.
+- Built the website for CWA's weather analysis seminar.
 
 ## Publications
 
@@ -75,7 +81,7 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 | Verification | CRPS, Brier score and decomposition, reliability, ROC, rank histograms, spread-skill, track error |
 | HPC | Air-gapped deployment, Lustre, PJM / Slurm batch jobs, offline pip and conda toolchains, CUDA extension builds |
 | Languages and data | Python, PyTorch, JAX, NumPy, xarray, Zarr, NetCDF, GRIB, Bash |
-| Web development | Interactive front ends, back-end APIs, CRUD services, database tuning |
+| Web development | Django, Vue, back-end APIs, CRUD services, database tuning |
 
 ## Education
 
