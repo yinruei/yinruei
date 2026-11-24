@@ -40,8 +40,9 @@ Administration (CWA) · Nov 2020 – present
 
 Global NWP forecast verification from 2020; machine-learning weather prediction since 2023.
 
-- **Operational AI downscaling:** built a daily pipeline that downscales 50-member, 45-day FCN3 global ensemble
-  forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run.
+- **AI downscaling, being introduced into operations:** built a daily pipeline that downscales 50-member, 45-day
+  FCN3 global ensemble forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run, and am
+  verifying its output before operational use.
 - **Probabilistic verification of AI vs NWP ensembles:** after CorrDiff downscaling, compared FCN3 with the ECMWF
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
   decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC. Also compare typhoon tracks across
