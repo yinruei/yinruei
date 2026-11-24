@@ -1,4 +1,4 @@
-# Edward Su (蘇胤瑞)
+# Yin-Ruei (Edward) Su · 蘇胤瑞
 
 **Assistant Researcher** at Taiwan's Central Weather Administration. I deploy, verify and speed up AI weather models
 (NVIDIA FourCastNet v3, CorrDiff, Earth-2 Atlas, ECMWF AIFS) on HPC GPU clusters, from offline installation to
