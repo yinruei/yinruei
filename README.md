@@ -48,6 +48,8 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 - **NVIDIA Earth-2 Atlas:** deployed the CRPS ensemble model offline on the GPU cluster and ran a 10-day, 8-member
   forecast at 3.9 s per member-step on A100.
 
+**Full-Stack Engineer**, 雲灣資訊, Taiwan · Sep 2018 – Jul 2020
+
 ## Skills
 
 | Area | Tools |
