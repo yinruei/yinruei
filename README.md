@@ -38,11 +38,15 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 **Assistant Researcher**, International Integrated Systems (IISI), on assignment to Taiwan's Central Weather
 Administration (CWA) · Nov 2020 – present
 
-Global NWP forecast verification from 2020; machine-learning weather prediction since 2023.
+Develop and run the global verification system from 2020; machine-learning weather prediction since 2023.
 
+- **Taipei-1 compute project:** assess the computing environment and compute needs for running ECMWF AIFS-ENS in
+  operations, in the project "AIFS-ENS performance optimization in an operational environment".
 - **AI downscaling, being introduced into operations:** built a daily pipeline that downscales 50-member, 45-day
   FCN3 global ensemble forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run, and am
-  verifying its output before operational use.
+  verifying its output before operational use. I also handle CorrDiff's data preprocessing.
+- **AI typhoon ensemble forecasting:** set up the environment for an MLWP ensemble typhoon model and its preliminary
+  verification (track, intensity, moisture); developed a typhoon vortex initialization method.
 - **Probabilistic verification of AI vs NWP ensembles:** after CorrDiff downscaling, compared FCN3 with the ECMWF
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
   decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC. Also compare typhoon tracks across
@@ -58,8 +62,11 @@ Global NWP forecast verification from 2020; machine-learning weather prediction 
   [2023 NCHC × NVIDIA OpenACC Hackathon](https://www.nchc.org.tw/Message/MessageView?id=3872), our team rebuilt the
   core of CWA's global ensemble verification system in JAX on GPUs. The existing workflow took over 12 hours per
   cycle; the proof of concept ran up to **44x faster**. I co-developed the GPU code and presented the team's results.
-- **Project coordination:** coordinate the RWRF shortwave-radiation bias-correction project (U-Net) for solar power
-  forecasting, and brief management and partner divisions.
+- **Operational systems:** maintain the global verification system (GVER) and other operational systems (GMCP, GNPD,
+  cherry-blossom prediction); built long-term charts of forecast scores and ensemble predictability.
+- **Projects and communication:** assist a green-energy forecasting project, including RWRF shortwave-radiation bias
+  correction with a U-Net for solar power, by compiling monthly and quarterly results and briefing management; give
+  public science talks on climate.
 
 **Full-Stack Engineer**, Cloudybay Information (雲灣資訊), Taiwan · Sep 2018 – Jul 2020
 
