@@ -42,13 +42,28 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 - **Probabilistic verification of AI vs NWP ensembles:** after CorrDiff downscaling, compared FCN3 with the ECMWF
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
   decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC.
-- **Extended-range monsoon onset:** verified 50-member AIFS-ENS and FCN3 ensembles against ERA5 for South China Sea
-  summer monsoon and Meiyu onset, presented as a poster at AOGS 2026. Cropping GRIB files with wgrib2 before
-  decoding made data loading about 30x faster.
+- **Extended-range AI ensembles:** ran ECMWF AIFS-ENS and NVIDIA FCN3 in-house as 50-member, 45-day ensembles and
+  verified them against ERA5. AIFS-ENS was more skilful in the first two weeks, but its errors grew quickly after a
+  crossover around day 16, while FCN3 stayed bounded and, in the 2025 case, caught the end of the Meiyu circulation
+  over Taiwan 30 days ahead. First-author poster at AOGS 2026. Cropping GRIB files with wgrib2 before decoding made
+  data loading about 30x faster.
 - **NVIDIA Earth-2 Atlas:** deployed the CRPS ensemble model offline on the GPU cluster and ran a 10-day, 8-member
   forecast at 3.9 s per member-step on A100.
+- **GPU hackathon with NVIDIA mentors:** at the
+  [2023 NCHC × NVIDIA OpenACC Hackathon](https://www.nchc.org.tw/Message/MessageView?id=3872), our team rebuilt the
+  core of CWA's global ensemble verification system in JAX on GPUs. The existing workflow took over 12 hours per
+  cycle; the proof of concept ran up to **44x faster**. I co-developed the GPU code and presented the team's results.
 
 **Full-Stack Engineer**, Cloudybay Information (雲灣資訊), Taiwan · Sep 2018 – Jul 2020
+
+- **Full-stack web development:** built interactive front-end pages and the back-end APIs that serve them, from
+  CRUD services to integrations with other systems.
+- **Back end and database:** implemented server-side algorithms and tuned database performance.
+
+## Publications
+
+- **Su, Y.-R.**, et al. (2026). Evaluation of extended-range ensemble forecasts from probabilistic machine learning
+  weather prediction models. Poster AS27-A002, AOGS 2026 Annual Meeting.
 
 ## Skills
 
@@ -59,7 +74,8 @@ Bias, MAE and RMSE with NumPy, PyTorch CPU and CUDA, on synthetic data and real 
 | AI weather models | Earth2Studio, PhysicsNeMo, FourCastNet v3, CorrDiff, Earth-2 Atlas, AIFS, Pangu-Weather |
 | Verification | CRPS, Brier score and decomposition, reliability, ROC, rank histograms, spread-skill, track error |
 | HPC | Air-gapped deployment, Lustre, PJM / Slurm batch jobs, offline pip and conda toolchains, CUDA extension builds |
-| Languages and data | Python, PyTorch, NumPy, xarray, Zarr, NetCDF, GRIB, Bash |
+| Languages and data | Python, PyTorch, JAX, NumPy, xarray, Zarr, NetCDF, GRIB, Bash |
+| Web development | Interactive front ends, back-end APIs, CRUD services, database tuning |
 
 ## Education
 
