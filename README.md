@@ -5,7 +5,7 @@
 Nsight profiling, multi-GPU scaling and probabilistic verification.
 
 [littleblacker29@gmail.com](mailto:littleblacker29@gmail.com) ·
-[LinkedIn](https://www.linkedin.com/in/%E8%83%A4%E7%91%9E-%E8%98%87-00a893369/)
+[LinkedIn](https://www.linkedin.com/in/yin-ruei-su-00a893369/)
 
 ## Featured projects
 
