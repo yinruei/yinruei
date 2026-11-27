@@ -71,10 +71,19 @@ Pangu-Weather, FengWu, FuXi, GraphCast, GenCast, ECMWF AIFS-ENS and NVIDIA FCN3.
 
 **Full-Stack Engineer**, Cloudybay Information (雲灣資訊), Taiwan · Sep 2018 – Jul 2020
 
-- **Full-stack web development (Python, Django, Vue):** built interactive front-end pages and the back-end APIs that
-  serve them, from CRUD services to integrations with other systems.
-- **Back end and database:** implemented server-side algorithms and tuned database performance.
-- Built the website for CWA's weather analysis seminar.
+Full-stack development of weather information systems with Python, Django and Vue, from the browser to the database.
+The team picked up work by claiming cards on a kanban board.
+
+- **CWA's Conference on Weather Analysis and Forecasting website:** built online registration, paper submission and
+  the admin back office, from requirements and database design to launch.
+- **Enhanced Typhoon Forecast and Warning Integrated System:** built the front-end map interface and back-end APIs,
+  and handled import and storage of forecast and warning data.
+- **Power-sector weather information platform (integration trial):** built display pages and charts, back-end APIs
+  and data integration.
+- **Weather data API:** designed and built the API, with scheduled jobs that pull external weather data, clean it and
+  store it for other systems.
+- **Tech:** Python, Django, Vue.js (responsive UI), Docker, MySQL, PostgreSQL; CRUD services, back-end algorithms and
+  database tuning.
 
 ## Publications
 
