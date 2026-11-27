@@ -43,12 +43,12 @@ Pangu-Weather, FengWu, FuXi, GraphCast, GenCast, ECMWF AIFS-ENS and NVIDIA FCN3.
 
 - **Taipei-1 compute project:** assess the computing environment and compute needs for running ECMWF AIFS-ENS in
   operations, in the project "AIFS-ENS performance optimization in an operational environment".
-- **AI downscaling, being introduced into operations:** built a daily pipeline that downscales 50-member, 45-day
-  FCN3 global ensemble forecasts over Taiwan with CorrDiff on two A100s, in about 22 minutes per run, and am
-  verifying its output before operational use. I also handle CorrDiff's data preprocessing.
+- **AI downscaling, being introduced into operations:** a daily FCN3 → CorrDiff pipeline downscales 50-member,
+  45-day global ensemble forecasts over Taiwan from 25 km to 2 km on two A100s, in about 22 minutes per run; I handle
+  the data preprocessing.
 - **AI typhoon ensemble forecasting:** set up the environment for an MLWP ensemble typhoon model and its preliminary
   verification (track, intensity, moisture); developed a typhoon vortex initialization method.
-- **Probabilistic verification of AI vs NWP ensembles:** after CorrDiff downscaling, compared FCN3 with the ECMWF
+- **Probabilistic verification of AI vs NWP ensembles (ongoing):** comparing CorrDiff-downscaled FCN3 with the ECMWF
   extended-range ensemble against the 2 km TReAD reanalysis: weekly precipitation Brier scores with reliability
   decomposition, and 10 m wind CRPS, rank histograms, spread-skill and ROC. Also compare typhoon tracks across
   NWP and AI models.
